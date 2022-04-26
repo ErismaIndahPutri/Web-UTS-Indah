@@ -1,0 +1,348 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+   
+}
+
+.wrapper{
+    background: white;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    line-height: 80px;
+    border-bottom:1px solid #364f6b;
+}
+
+.logo a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.wrapper .navbar a{
+    text-decoration: none;
+    margin:0 1rem;
+    font-size: 20px;
+    color: #364f6b;
+    float: right;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+.wrapper .navbar a:hover{
+    color: #F7E9D7;
+}
+
+.wrapper .icons div{
+    color:black;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+.wrapper .icons div:hover{
+    color:#F7E9D7;
+}
+
+#menu-btn{
+    display: none;
+}
+
+
+#home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/realistic-coffee-time-background-with-coffee-cup_79603-1560.jpg?t=st=1650356134~exp=1650356734~hmac=9f9e6762bdca5ce86ed6929958b77bdb357bd401022982cbae2de891ee4b4ba5&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    background-color: #F7E9D7;
+}
+
+#about{
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: #fc5185;
+    font-weight: bold;
+}
+
+a.tbl-biru {
+    background: #072c58;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Comic sans ms';
+    color: #364f6b;
+}
+.menu {
+background-color:#364f6b;
+}
+.menu .box-container{
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #364f6b;
+}
+
+.menu .box-container .box{
+    padding:1rem;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border:var(--border);    
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 20px;
+    padding:1rem 0;
+}
+
+.menu .box-container .box:hover{
+    background:#fff;
+}
+
+.menu .box-container .box:hover > *{
+    color: black;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    color:#364f6b; 
+    font-weight: bold; 
+    font-family: 'Comic sans ms';
+
+}
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: #364f6b;
+    font-family: 'comic sans ms'; 
+
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+        padding: 20px;
+    }
+
+    .wrapper .navbar{
+        position: absolute;
+        top:101%; right: -100%;
+        background: #FFF;
+        width: 17rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .wrapper .navbar.active{
+        right:0;
+        transition: .5s;
+    }
+
+    .wrapper .navbar a{
+        color:black;
+        display: block;
+        margin:1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding:1.1rem;
+        font-size: 2rem;
+    }
+
+
+    .logo a {
+        display: block;
+        width: 100%;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    
+    .box{
+        margin: 10px 10px 10px 100px;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+
+    .deskripsi{
+        font-size: 60px;
+    }
+
+    .heading{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
+}
